@@ -1,0 +1,43 @@
+{
+  "name": "protecc",
+  "version": "1.0.0",
+  "description": "but most importantly, he protecc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kito0",
+  "license": "MIT",
+  "homepage": "https://github.com/kito0/protecc#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kito0/protecc"
+  },
+  "keywords": [
+    "protect",
+    "security",
+    "express",
+    "middleware",
+    "xss",
+    "sanitization",
+    "sanitize",
+    "input",
+    "clean",
+    "cross",
+    "site",
+    "scripting",
+    "helmet",
+    "cors",
+    "hpp",
+    "limit",
+    "limiter"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-rate-limit": "^5.3.0",
+    "helmet": "^4.6.0",
+    "hpp": "^0.2.3",
+    "xss-clean": "^0.1.1"
+  }
+}
