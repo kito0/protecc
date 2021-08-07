@@ -14,8 +14,8 @@ npm i protecc
 ```
 
 ```javascript
-const express = require('restify');
-const xss = require('xss-clean');
+const express = require('express');
+const { protecc, limit } = require('protecc');
 
 const app = express();
 
